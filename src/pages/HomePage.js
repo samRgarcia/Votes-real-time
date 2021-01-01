@@ -16,7 +16,7 @@ function HomePage() {
         <p>
           Service status:
           {online ? (
-            <span className="badge bg-success">Online</span>
+           <> <span className="badge bg-success">Online</span><small>Espere 5 segundos, el servicio puede estar Hibernando 🐱‍💻🐱‍💻</small></>
           ) : (
             <span className="badge bg-danger">Offline</span>
           )}
